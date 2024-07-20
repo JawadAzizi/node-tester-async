@@ -1,0 +1,14 @@
+{
+	"name": "api-tester",
+	"version": "1.0.0",
+	"description": "Sends mock request for performance testing",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Jawad Azizi",
+	"license": "ISC",
+	"dependencies": {}
+}

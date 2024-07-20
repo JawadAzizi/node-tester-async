@@ -1,0 +1,13 @@
+import { Request } from "./request.js";
+
+const request = new Request({
+	url: "https://www.binance.com/en",
+	concurency: 200,
+	requests: 200,
+	token: "your token",
+	method: "GET",
+	cookie:
+		"__Secure-authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiTzRiTWlIVkVOQlNtMzVsaVNURVRpQ2pIWmZCNWZ5VFpUSE9RdERrZE5obDVKc2xmTWdUNnZ1REFoYkJHZm8zVE8zRW5xejJxTFA5aXdJdWRGVHI3S0EifQ..xlIzFTa3PAEmdsLB5uWXnA.DpE3XSn-o0wzGbNj8koBDrGkZqrCmTdsLA_zHFYvIUQ5b6QkmaJVBAkpxKEH7nPT8Q0dlVFAESt3ABjERYddEFotRYoU0UN3eHKCS7-pV-DsL0NJqNqq7-vXLz8opU44L2ds8s1C8GZDuv8i_sc85zUX4fB6Vo4HT2iN-7emxqdJGUw6YUCanY_cMBkA0dTlKLVmtl-jfJsz-JrRE1NpY3LYCP47rdVMS43m07kKstkzQ5ybhqPNEFBkTnqYigLjrwV8cTtH_mCC0ZO6XR7szk97C457fvVlRf4Tli9lOmOAm5mZT2zB69Y8xrxgp1Q0c7eEq0D9Ks0y1rKVXLTDImt1rY5FFTMkrjM6De0zqQSqhGw9-p2iumqNC_V_npo9FdmlD6D5rj8g6kUb7TWXXAJVHSMUYYPUig56RG8cITUQF3w36xA79xnJtAhFNKxL76AiuJ3H-PRZBGct_wjUbqoYu2o-V1K7vihHvVDvs_b-GNejda7JFvMZjTVhoyK6T3YAPbVB0Kcfnode9v1qw8ZXEfiZqFpKHC2IIbFMQng.KsAY53rFpxoNLnVyQW-af4Rt1OhXu_0hjXUZdEa6hKU",
+});
+await request.run();
+request.report();
