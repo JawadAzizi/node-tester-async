@@ -4,7 +4,7 @@ cd node-tester-async
 
 npm i
 
-#set the options
+# set the options
 const request = new Request({
 	url: "https://www.binance.com/en",
 	concurency: 200,
