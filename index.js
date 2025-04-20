@@ -1,9 +1,9 @@
 import { Request } from "./request.js";
 
 const request = new Request({
-	url: "https://www.binance.com/en",
-	concurency: 200,
-	requests: 200,
+	url: "http://localhost:5000",
+	concurency: 500,
+	requests: 10000,
 	token: "your token",
 	method: "GET",
 	cookie:

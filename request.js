@@ -75,7 +75,7 @@ export class Request {
 			"ms"
 		);
 		console.log(
-			"Average Time per request Time: ",
+			"Average Time per each request : ",
 			this.totalRequestTime / this.responses,
 			"ms"
 		);
